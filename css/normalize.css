@@ -182,7 +182,8 @@ sub {
  */
 
 img {
-  border: 0;
+  border: 10px;
+  border-color:red;
 }
 
 /**
@@ -423,5 +424,5 @@ table {
 
 td,
 th {
-  padding: 0;
+  padding: 10px;
 }
