@@ -19,6 +19,9 @@ html {
 body {
   margin: 0;
 }
+ul {
+  list-style-type: none;
+}
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -303,6 +306,9 @@ input[type="submit"] {
 button[disabled],
 html input[disabled] {
   cursor: default;
+}
+nav li {
+  margin: 0 10px;
 }
 
 /**

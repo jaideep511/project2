@@ -1,9 +1,22 @@
+@page {
+  size: A4;
+  margin: 0;
+}
 body {
   font-family: Monaco, Monospace;
   text-align: center;
- 
+  margin: 40px;
 }
-
+.paper {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  background-color: #fff; 
+  padding: 20px;
+}
+ul {
+  list-style-type: none;
+}
 nav {
   background-color: #EDF1D6;
   color: #11ea5d;
@@ -30,8 +43,7 @@ nav a {
   color: #000c06;
   text-decoration: none;
   font-size: 18px;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 1px #9DC08B;
+
 }
 
 .button {
@@ -44,14 +56,11 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
-
-
 .navMenu {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  
 }
 
 .navMenu a {
@@ -70,67 +79,54 @@ h1 {
   text-shadow: 1px 1px 1px #9DC08B;
   text-align: center;
 }
+
 h2 {
   padding: 10px;
   color: #609966;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #9DC08B;
 }
+
 h3 {
   padding: 10px;
   color: #609966;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #9DC08B;
 }
+
 table {
   border-collapse: collapse;
   width: 70%;
   margin: 0 auto; /* Center-align the table */
   text-align: center;
   padding: 10px;
-  
 }
-
-td {
-  border: 1px solid black;
-  padding: 10px;
-  
-  text-align: center;
-  color: black;
-  
-}
-
-th {
-  border: 1px solid black;
-  background-color: #EDF1D6;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: 1px 1px 1px #9DC08B;
-  padding: 10px;
-  color: #609966;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 1px #9dc08b;
-  width: 70%;
-  border-spacing: 10px;
-}
-
-
 
 img {
   width: 30%;
   height: 50%;
   align-self: center;
 }
+
 video {
   width: 30%;
   height: 50%;
 }
+
 .small-image {
   width: 200px;
   height: 200px;
 }
 
-
-
- 
-
+/* CSS floats */
+.navMenu:before,
+.navMenu:after,
+nav:before,
+nav:after,
+h1:before,
+h1:after,
+h2:before,
+h2:after,
+h3:before,
+h3:after,
+table:before
