@@ -117,16 +117,3 @@ video {
   width: 200px;
   height: 200px;
 }
-
-/* CSS floats */
-.navMenu:before,
-.navMenu:after,
-nav:before,
-nav:after,
-h1:before,
-h1:after,
-h2:before,
-h2:after,
-h3:before,
-h3:after,
-table:before
